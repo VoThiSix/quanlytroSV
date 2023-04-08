@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:background="@drawable/bg_radius_blue"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+
+    <TextView
+        android:id="@+id/tvPaymentCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/payment_code"
+        android:textColor="@color/design_default_color_primary"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/tvStudentCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/student_code"
+        android:textColor="@color/design_default_color_primary"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/tvStudentName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/student_name"
+        android:textColor="@color/design_default_color_primary"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvDatePayment"
+        android:layout_width="wrap_content"
+        android:text="@string/date_payment_format"
+
+        android:layout_height="wrap_content"
+        android:textColor="@color/design_default_color_primary"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/tvElectricityBill"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/electricity_bill_format"
+        android:textColor="@color/design_default_color_primary"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/tvWaterBill"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/water_bill_format"
+
+        android:textColor="@color/design_default_color_primary"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/tvRoomBill"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/room_bill_format"
+        android:textColor="@color/design_default_color_primary"
+        android:textSize="15sp" />
+</LinearLayout>
